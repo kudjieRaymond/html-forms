@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+  }
+
+html {
+font-size: 14px;
+color: rgb(27, 27, 27);
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+
+}
+
+
+header {
+height: 60px;
+width: 100%;
+background-color: rgb(255, 254, 254);
+z-index: 999;
+margin-right: 40px;
+
+}
+.header-container{
+	display:flex;
+	justify-content: flex-end;
+	padding:10px 30px;
+}
+
+  a {
+	
+	text-decoration: none;
+	color:#0077C5;
+  }
+
+.lock{
+	background-image: url(images/icon-whitelock@3x.png);
+	display:inline-block;
+	height: 1em;
+	width:.8em;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 2px;
+    margin-right: 4px;
+    vertical-align: text-top;
+}
+.signin-container{
+	margin-left:20px;
+}
+.signin-btn{
+	background: #0077C5;
+    border-radius: 4px;
+	border: 1px solid #4c4c4c;
+	height: 34px;
+	padding: 0 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.125em;
+    font-weight: normal;
+}
+main {
+	display: flex;
+	justify-content: center;
+	height: 500px;
+	background-color: DodgerBlue;
+  }
+  
+main>div {
+	background-color: #f1f1f1;
+	color: white;
+	width: 100px;
+	height: 100px;
+  }
+
