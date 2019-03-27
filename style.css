@@ -11,14 +11,14 @@ color: rgb(27, 27, 27);
 
 body {
 font-family: 'Roboto', sans-serif;
-
+background-color: #eceef1;
 }
 
 
 header {
 height: 60px;
 width: 100%;
-background-color: rgb(255, 254, 254);
+
 z-index: 999;
 margin-right: 40px;
 
@@ -30,7 +30,7 @@ margin-right: 40px;
 }
 
   a {
-	
+
 	text-decoration: none;
 	color:#0077C5;
   }
@@ -63,14 +63,76 @@ margin-right: 40px;
 main {
 	display: flex;
 	justify-content: center;
-	height: 500px;
-	background-color: DodgerBlue;
-  }
-  
-main>div {
-	background-color: #f1f1f1;
-	color: white;
-	width: 100px;
-	height: 100px;
+
+  text-align: center;
+	/*background-color: DodgerBlue;*/
   }
 
+main>div {
+	background-color: #white;
+	width: 400px;
+
+  }
+label{
+	display: block;
+
+}
+.form-content{
+	text-align: left;
+  padding: 10px;
+}
+input{
+	width: 370px;
+	height: 40px;
+}
+.create-btn{
+	background: #0077C5;
+  border-radius: 4px;
+	border: 1px solid #4c4c4c;
+	height: 34px;
+	padding: 0 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.125em;
+  font-weight: normal;
+	width: 370px;
+	height: 50px;
+
+}
+.terms-condition{
+	color:grey;
+	padding: 10px;
+	font-style: italic;
+}
+
+.form-body{
+	background-color: #ffffff;
+  border: 2px solid rgb(199, 199, 199);
+}
+.recaptcha{
+	background-color: #eceef1;
+	padding: 10px;
+}
+
+footer{
+	text-align: center;
+  margin-top: 10px;
+}
+.copyright{
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.footer-links > a{
+	 color:black;
+
+}
+.footer-links > a:hover{
+	text-decoration: underline;
+}
+h2{
+	color: #000;
+	font-weight: normal;
+	margin-top: 10px;
+}
