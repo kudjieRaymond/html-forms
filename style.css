@@ -118,10 +118,9 @@ footer{
   margin-top: 10px;
 }
 .copyright{
-	margin-left: 200px;
-	margin-right: 200px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin: 10px 200px;
+
+
 }
 .footer-links > a{
 	 color:black;
