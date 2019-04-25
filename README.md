@@ -1,5 +1,6 @@
 # html-forms
-This project rebuilds the form used by "Mint.com" on their registration page. The original page can be found here foe comparison 
+This project rebuilds the form used by "Mint.com" on their registration page. The original page can be found here for comparison 
+
 [https://wwws.mint.com/login.event?task=S](https://wwws.mint.com/login.event?task=S)
 
 
